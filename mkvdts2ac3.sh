@@ -22,8 +22,8 @@
 
 
 # Display version header
-echo "mkvdts2ac3 2.0 - by PlexDirect"
-echo
+#echo "mkvdts2ac3 2.0 - by PlexDirect"
+#echo
 
 # Debugging flags
 # DO NOT EDIT THESE! USE --debug OR --test ARGUMENT INSTEAD.
