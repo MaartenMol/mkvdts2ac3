@@ -22,8 +22,7 @@
 
 
 # Display version header
-echo "mkvdts2ac3-1.6.0 - by Jake Wharton <jakewharton@gmail.com> and"
-echo "                      maintaned and used by PlexDirect"
+echo "mkvdts2ac3 2.0 - by PlexDirect"
 echo
 
 # Debugging flags
