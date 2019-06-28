@@ -15,23 +15,6 @@ Make sure the executables for the following libraries are accessible.
 
 *Note: If you are a Mac OS X user you may need to compile these libraries.*
 
-Installation
-------------
-If you have `git` installed, you can just run
-`git clone git://github.com/JakeWharton/mkvdts2ac3.git`.
-
-You can download the script directly with wget or curl:
-  wget https://raw.github.com/JakeWharton/mkvdts2ac3/master/mkvdts2ac3.sh
-  -or-
-  curl -O https://raw.github.com/JakeWharton/mkvdts2ac3/master/mkvdts2ac3.sh
-
-Otherwise you can click the "Download" link on the GitHub project page and
-download an archive and extract its contents.
-
-Optional: If you want easy access to the script from any directory you can copy
-or symlink the `mkvdts2ac3.sh` file to a directory in your PATH variable or else
-append the script's directory to the PATH variable.
-
 Usage
 =====
 This script was designed to be very simple and will automatically convert the
@@ -185,58 +168,3 @@ before running each.
     
     Remove working file.
     > rm -f "/mnt/media/tmp/Some.Random.Movie.new.mkv"
-
-
-Developed By
-============
-* Jake Wharton - <jakewharton@gmail.com>
-* Chris Hoekstra - <chris.hoekstra@gmail.com>
-
-Git repository located at
-[github.com/JakeWharton/mkvdts2ac3](http://github.com/JakeWharton/mkvdts2ac3)
-
-
-Very Special Thanks
--------------------
-* Philipp Winkler - Munich, Germany
-* Paul Tilley
-* Paulo Ferreira
-* Douglas Carter
-
-Thanks
-------
-The following people contributed useful thoughts or code to `mkvdts2ac3`:
-
-* John Nilsson - Dependency, file, and space checking as well as general bash formatting.
-* crimsdings - General debugging and error resolution.
-* Vladimir Berezhnoy - Feature to copy track name from DTS.
-* Ricardo Capurro - Bug reporting on uncommon uses.
-* Tom Flanagan - Idea for downmixing support.
-* lgringo - Suggestion to copy audio track delay.
-* Huss - Suggestion of ability to set niceness.
-* Florian Beverborg - Suggestion of `--new` argument to leave original untouched.
-* Daniele Nicolucci - `df` portability fixes.
-* Florian Coulmier - Bug reports and patches.
-* NameLessJedi - Header compression disabling suggestion.
-* d4nyl0 - Transition to ffmpeg
-* n-i-x - Progress display on file copy
-
-And to everyone who submitted bug reports through email and on networkedmediatank.com!
-
-
-License
-=======
-
-    Copyright 2011 Jake Wharton
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
